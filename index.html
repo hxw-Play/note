@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./note.css">
+</head>
+<body>
+        <form>
+                <select id="note-level">
+                    <option value="normal">正常记录</option>
+                    <option value="important">重要记录</option>
+                </select>
+                <input type="text" name="note" placeholder="记录你的生活" id="note" required>
+                <input type="button" name="submit" id="take-note" value="记录">
+            </form>
+    
+            <ul id="note-list">
+            </ul>
+    
+    <script src="./note.js"></script>
+</body>
+</html>
